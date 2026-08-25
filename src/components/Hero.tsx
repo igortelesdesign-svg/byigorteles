@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { ArrowDown, Mail, Github, Linkedin } from 'lucide-react';
 import { motion, useMotionValue, useSpring, useTransform } from 'motion/react';
-import igorPortrait from '../assets/images/igor_teles_portrait_1787671345766.jpg';
+const igorPortrait = '/igor-novo.jpg';
 
 export const Hero: React.FC = () => {
   const { t, language } = useLanguage();

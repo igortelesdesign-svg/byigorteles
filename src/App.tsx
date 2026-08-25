@@ -17,7 +17,6 @@ import { ClientsSection } from './components/ClientsSection';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { BackToTop } from './components/BackToTop';
-import { PWAInstallPrompt } from './components/PWAInstallPrompt';
 
 export default function App() {
   return (
@@ -61,7 +60,6 @@ export default function App() {
 
         {/* Floating Utilities */}
         <BackToTop />
-        <PWAInstallPrompt />
       </div>
     </LanguageProvider>
   );
