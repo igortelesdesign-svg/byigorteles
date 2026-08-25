@@ -1,7 +1,7 @@
 import { ProjectItem } from '../types';
 
 import neneImg from '../assets/images/nene-real-mockup.png';
-import dunaStoreImg from '../assets/images/duna_store_mockup_1787671246927.jpg';
+import dunaStoreImg from '../assets/images/duna-store-real-mockup.png';
 import portalPacienteImg from '../assets/images/portal-real-mockup.png';
 import dunaMoveImg from '../assets/images/duna-move-real-mockup.png';
 
