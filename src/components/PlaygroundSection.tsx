@@ -13,9 +13,7 @@ export const PlaygroundSection: React.FC = () => {
   const filterOptions = [
     { key: 'all', label: t.playground.filters.all },
     { key: 'graphic-design', label: t.playground.filters.graphic },
-    { key: 'ui-experiments', label: t.playground.filters.ui },
-    { key: 'creative-coding', label: t.playground.filters.code },
-    { key: 'ai-art', label: t.playground.filters.ai },
+    { key: 'art-direction', label: t.playground.filters.artDirection },
   ];
 
   const filteredItems =

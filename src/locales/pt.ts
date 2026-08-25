@@ -125,10 +125,7 @@ export const pt = {
     filters: {
       all: 'Todos',
       graphic: 'Design Gráfico',
-      ui: 'UI Experiments',
-      motion: 'Motion',
-      code: 'Creative Coding',
-      ai: 'Direção com IA'
+      artDirection: 'Direção de Arte'
     }
   },
   clients: {

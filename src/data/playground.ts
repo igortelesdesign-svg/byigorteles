@@ -1,61 +1,75 @@
 import { PlaygroundItem } from '../types';
 
-import kineticTypeImg from '../assets/images/kinetic_type_mockup_1787671558160.jpg';
-import glassDockImg from '../assets/images/glass_dock_mockup_1787671573555.jpg';
-import nexusImg from '../assets/images/nexus_system_mockup_1787671320290.jpg';
-import rcmImg from '../assets/images/rcm_branding_mockup_1787671306752.jpg';
+import primeCarnesImg from '../assets/images/prime-carnes-case.webp';
+import rcmJucurutuImg from '../assets/images/rcm-jucurutu-case.webp';
+import rnCrossImg from '../assets/images/rn-cross-case.webp';
+import dunaMoveCreativeImg from '../assets/images/duna-move-creative-case.webp';
+import somaImg from '../assets/images/soma-case.webp';
 
 export const playgroundData: PlaygroundItem[] = [
   {
-    id: 'kinetic-typography',
-    title: 'Kinetic Typography & Rhythmic Grid',
+    id: 'prime-carnes-retail',
+    title: 'Prime Carnes — Retail Campaign',
     category: 'graphic-design',
     categoryLabel: { pt: 'Design Gráfico', en: 'Graphic Design' },
-    year: '2025',
-    image: kineticTypeImg,
+    year: '2026',
+    image: primeCarnesImg,
     description: {
-      pt: 'Exploração de tipografia cinética e grids suíços contemporâneos sobrepostos a contrastes monocromáticos e azuis elétricos.',
-      en: 'Kinetic typography and contemporary Swiss grid research with high-contrast monochromes and electric blue hues.'
+      pt: 'Campanha publicitária para varejo alimentício, combinando direção de arte, composição promocional e comunicação de ponto de venda.',
+      en: 'Retail advertising campaign combining art direction, promotional composition and point-of-sale communication.'
     },
-    tools: ['Photoshop', 'Illustrator', 'InDesign']
+    tools: ['Photoshop', 'Art Direction', 'Social Media', 'Advertising']
   },
   {
-    id: 'glass-audio-dock',
-    title: 'Spatial Audio Dock UI Experiment',
-    category: 'ui-experiments',
-    categoryLabel: { pt: 'UI Experiments', en: 'UI Experiments' },
-    year: '2025',
-    image: glassDockImg,
+    id: 'rcm-jucurutu-campaign',
+    title: 'RCM Jucurutu — Brand Campaign',
+    category: 'art-direction',
+    categoryLabel: { pt: 'Direção de Arte', en: 'Art Direction' },
+    year: '2026',
+    image: rcmJucurutuImg,
     description: {
-      pt: 'Widget interativo de controle de áudio espacial com feedback háptico visual, onda senoidal em tempo real e backdrop blur calibrado.',
-      en: 'Interactive spatial audio control widget with haptic visual feedback, live sine wave visualizers, and calibrated blur.'
+      pt: 'Campanha de expansão da Rede de Postos RCM, trabalhando identidade visual, personagem de marca, comunicação promocional e presença local.',
+      en: 'Expansion campaign for Rede de Postos RCM combining brand identity, mascot usage, promotional communication and local presence.'
     },
-    tools: ['Figma', 'React', 'Tailwind CSS', 'Web Audio API']
+    tools: ['Photoshop', 'Branding', 'Art Direction', 'Social Media']
   },
   {
-    id: 'fluid-mesh-shaders',
-    title: 'Generative Canvas Mesh Gradients',
-    category: 'creative-coding',
-    categoryLabel: { pt: 'Creative Coding', en: 'Creative Coding' },
-    year: '2024',
-    image: nexusImg,
+    id: 'rn-cross-community',
+    title: 'RN Cross — Community Campaign',
+    category: 'art-direction',
+    categoryLabel: { pt: 'Design Gráfico', en: 'Graphic Design' },
+    year: '2026',
+    image: rnCrossImg,
     description: {
-      pt: 'Estudo de shaders em WebGL e Canvas 2D gerando gradientes líquidos matemáticos reativos ao movimento do cursor.',
-      en: 'WebGL & Canvas 2D shader experiment generating procedural liquid mesh gradients reacting to pointer velocity.'
+      pt: 'Direção visual para comunicação fitness focada em comunidade, intensidade, pertencimento e performance no ambiente de treino.',
+      en: 'Visual direction for a fitness campaign focused on community, intensity, belonging and performance.'
     },
-    tools: ['TypeScript', 'HTML5 Canvas', 'Math Algorithms']
+    tools: ['Photography', 'Photoshop', 'Social Media', 'Art Direction']
   },
   {
-    id: 'cyber-art-direction',
-    title: 'Editorial Poster Series: Idea to Reality',
-    category: 'ai-art',
-    categoryLabel: { pt: 'Direção com IA', en: 'AI Art Direction' },
-    year: '2024',
-    image: rcmImg,
+    id: 'duna-move-content',
+    title: 'Duna Move — Activewear Content',
+    category: 'art-direction',
+    categoryLabel: { pt: 'Design Gráfico', en: 'Graphic Design' },
+    year: '2026',
+    image: dunaMoveCreativeImg,
     description: {
-      pt: 'Série de posters editoriais explorando o diálogo entre inteligência artificial generativa, composição manual no Photoshop e tipografia vetorial.',
-      en: 'Editorial poster series investigating the intersection of generative AI, manual Photoshop compositing, and vector typography.'
+      pt: 'Conteúdo visual para marca de activewear, unindo fotografia fitness, direção de imagem, posicionamento de produto e linguagem editorial.',
+      en: 'Visual content for an activewear brand combining fitness photography, image direction, product positioning and editorial language.'
     },
-    tools: ['Midjourney', 'Photoshop', 'Illustrator', 'Typography']
+    tools: ['Photography', 'Brand Content', 'Art Direction', 'Photoshop']
+  },
+  {
+    id: 'soma-visual-communication',
+    title: 'Soma — Visual Communication',
+    category: 'graphic-design',
+    categoryLabel: { pt: 'Design Gráfico', en: 'Graphic Design' },
+    year: '2026',
+    image: somaImg,
+    description: {
+      pt: 'Peça técnica e comercial para comunicação visual, destacando estrutura, acabamento, resistência e aplicação de lonas em projetos físicos.',
+      en: 'Technical and commercial visual communication piece highlighting structure, finishing, durability and physical banner applications.'
+    },
+    tools: ['Graphic Design', 'Advertising', 'Visual Communication', 'Photoshop']
   }
 ];

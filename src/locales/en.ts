@@ -125,10 +125,7 @@ export const en = {
     filters: {
       all: 'All',
       graphic: 'Graphic Design',
-      ui: 'UI Experiments',
-      motion: 'Motion',
-      code: 'Creative Coding',
-      ai: 'AI Art Direction'
+      artDirection: 'Art Direction'
     }
   },
   clients: {
