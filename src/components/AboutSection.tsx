@@ -8,15 +8,12 @@ export const AboutSection: React.FC = () => {
   const { t, language } = useLanguage();
 
   const handleDownloadCv = () => {
-    // Generate a clean professional CV summary or download link
-    const cvText = `IGOR TELES - Designer & Front-End Developer\nEmail: igortelesdesign@gmail.com\nLinkedIn: https://www.linkedin.com/in/byigorteles\nGitHub: https://github.com/igortelesdesign-svg\nInstagram: https://www.instagram.com/byigorteles/\n\nResumo:\nDesigner e Desenvolvedor Front-End atuando na interseção entre Design Gráfico, UI/UX e Código.\nEspecialidades: React, TypeScript, Supabase, Design Systems, Figma, Photoshop, Illustrator.`;
-    const blob = new Blob([cvText], { type: 'text/plain;charset=utf-8' });
-    const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
-    link.href = url;
-    link.download = `Igor_Teles_CV_${language.toUpperCase()}.txt`;
+    link.href = '/Igor_Teles_CV_PT.pdf';
+    link.download = 'Igor_Teles_CV_PT.pdf';
+    document.body.appendChild(link);
     link.click();
-    URL.revokeObjectURL(url);
+    document.body.removeChild(link);
   };
 
   return (
