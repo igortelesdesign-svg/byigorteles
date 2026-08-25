@@ -1,0 +1,17 @@
+{
+  "name": "Igor Teles — Designer & Front-End Developer",
+  "short_name": "Igor Teles",
+  "description": "Portfolio of Igor Teles, a designer and front-end developer creating visual identities, interfaces and digital products.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07090D",
+  "theme_color": "#07090D",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

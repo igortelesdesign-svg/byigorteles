@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-BR" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Igor Teles — Designer & Front-End Developer</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Designer, UI/UX and Front-End Developer creating identities, interfaces and digital products." />
+    <meta name="keywords" content="Igor Teles, UI/UX Designer, Front-End Developer, Design System, React, TypeScript, Product Design, Graphic Design, Web Development, byigorteles" />
+    <meta name="author" content="Igor Teles" />
+    <meta name="theme-color" content="#07090D" />
+    <meta name="color-scheme" content="dark" />
+    <link rel="canonical" href="https://byigorteles.com" />
+
+    <!-- Open Graph / Facebook / LinkedIn / WhatsApp -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://byigorteles.com" />
+    <meta property="og:title" content="Igor Teles — Designer & Front-End Developer" />
+    <meta property="og:description" content="Designer, UI/UX and Front-End Developer creating identities, interfaces and digital products." />
+    <meta property="og:image" content="/icon.svg" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://byigorteles.com" />
+    <meta name="twitter:title" content="Igor Teles — Designer & Front-End Developer" />
+    <meta name="twitter:description" content="Designer, UI/UX and Front-End Developer creating identities, interfaces and digital products." />
+    <meta name="twitter:image" content="/icon.svg" />
+
+    <!-- PWA & Icons -->
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/icon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <!-- Google Fonts: Space Grotesk, Inter, JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Igor Teles",
+        "jobTitle": "Designer & Front-End Developer",
+        "description": "Designer, UI/UX & Front-End Developer specializing in digital products, design systems, and web applications.",
+        "url": "https://byigorteles.com",
+        "sameAs": [
+          "https://www.linkedin.com/in/byigorteles",
+          "https://github.com/igortelesdesign-svg",
+          "https://www.instagram.com/byigorteles/"
+        ],
+        "knowsAbout": [
+          "Graphic Design",
+          "UI/UX Design",
+          "Front-End Development",
+          "React",
+          "TypeScript",
+          "Design Systems",
+          "Brand Identity"
+        ]
+      }
+    </script>
+  </head>
+  <body class="bg-[#07090D] text-[#F5F7FA] font-sans antialiased selection:bg-[#168BFF]/30 selection:text-[#00D5FF] overflow-x-hidden min-h-screen">
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-[#168BFF] focus:text-white focus:rounded-md focus:shadow-lg">
+      Pular para o conteúdo principal / Skip to main content
+    </a>
+    
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+    </script>
+  </body>
+</html>
+
