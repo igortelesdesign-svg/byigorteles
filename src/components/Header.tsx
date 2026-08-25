@@ -63,10 +63,12 @@ export const Header: React.FC = () => {
             className="flex items-center gap-3 group focus:outline-none"
             aria-label="Igor Teles - Início"
           >
-            <div className="relative w-9 h-9 rounded-lg bg-gradient-to-br from-[#101722] to-[#151D2A] border border-white/10 flex items-center justify-center overflow-hidden group-hover:border-[#00D5FF]/50 transition-colors">
-              <span className="font-display font-bold text-sm tracking-tight bg-gradient-to-r from-[#F5F7FA] via-[#00D5FF] to-[#7257FF] bg-clip-text text-transparent">
-                IT
-              </span>
+            <div className="relative w-9 h-9 rounded-lg overflow-hidden border border-white/10 group-hover:border-[#00D5FF]/50 transition-colors shadow-[0_0_18px_rgba(0,213,255,0.12)]">
+              <img
+                src="/icon-bit.PNG"
+                alt="BIT — By Igor Teles"
+                className="w-full h-full object-cover"
+              />
               <div className="absolute inset-0 bg-[#00D5FF]/10 opacity-0 group-hover:opacity-100 transition-opacity" />
             </div>
             <div className="flex flex-col">
