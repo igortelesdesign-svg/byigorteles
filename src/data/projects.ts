@@ -1,9 +1,9 @@
 import { ProjectItem } from '../types';
 
-import neneImg from '../assets/images/nene-real-mockup.png';
-import dunaStoreImg from '../assets/images/duna-store-real-mockup.png';
-import portalPacienteImg from '../assets/images/portal-real-mockup.png';
-import dunaMoveImg from '../assets/images/duna-move-real-mockup.png';
+import neneImg from '../assets/images/nene-real-mockup.webp';
+import dunaStoreImg from '../assets/images/duna-store-real-mockup.webp';
+import portalPacienteImg from '../assets/images/portal-real-mockup.webp';
+import dunaMoveImg from '../assets/images/duna-move-real-mockup.webp';
 
 export const projectsData: ProjectItem[] = [
   {
