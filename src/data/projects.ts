@@ -1,6 +1,6 @@
 import { ProjectItem } from '../types';
 
-import neneImg from '../assets/images/nene_pwa_mockup_1787671259419.jpg';
+import neneImg from '../assets/images/nene-real-mockup.png';
 import dunaStoreImg from '../assets/images/duna_store_mockup_1787671246927.jpg';
 import portalPacienteImg from '../assets/images/portal_paciente_mockup_1787671277960.jpg';
 import dunaMoveImg from '../assets/images/duna_move_mockup_1787671291818.jpg';
