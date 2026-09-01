@@ -20,7 +20,7 @@ export const pt = {
     ctaWork: 'Explorar projetos',
     ctaAbout: 'Sobre mim',
     ctaContact: 'Fale comigo',
-    scrollIndicator: 'ROLE PARA EXPLORAR',
+    scrollIndicator: 'ROLE PARA CONHECER',
     links: {
       linkedin: 'LinkedIn',
       github: 'GitHub',

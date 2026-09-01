@@ -30,19 +30,19 @@ export default function App() {
 
         {/* Main Content Sections */}
         <main id="main-content">
-          {/* 00 - Asymmetric Hero with Portrait & Clean Narrative */}
+          {/* 00 - Hero */}
           <Hero />
 
-          {/* 01 - Selected Work (Featured Projects & Deep Case Studies) */}
-          <SelectedWork />
-
-          {/* Core Concept: Designer Who Codes Interactive Split */}
-          <DesignerWhoCodes />
-
-          {/* 02 - About Me, 3 Pillars of Capabilities & Career Evolution */}
+          {/* 01 - About Me */}
           <AboutSection />
 
-          {/* 03 - Technical & Creative Toolbox */}
+          {/* 02 - Designer Who Codes */}
+          <DesignerWhoCodes />
+
+          {/* 03 - Selected Work */}
+          <SelectedWork />
+
+          {/* 04 - Technical & Creative Toolbox */}
           <ToolboxSection />
 
           {/* 04 - Playground & Creative Lab */}

@@ -130,28 +130,6 @@ export const Hero: React.FC = () => {
               ========================================================================= */}
           <div className="flex flex-col justify-center space-y-3.5 sm:space-y-4.5 lg:space-y-5 z-10">
             
-            {/* 1. Status Pill & Role Eyebrow */}
-            <div className="flex flex-wrap items-center gap-2.5 sm:gap-3">
-              {/* Disponível para oportunidades */}
-              <div className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 py-1 rounded-full bg-[#101722]/90 border border-emerald-500/25 text-[10.5px] sm:text-[11px] font-mono text-emerald-400 shadow-xs">
-                <span className="relative flex h-2 w-2">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
-                </span>
-                <span className="whitespace-nowrap font-medium">
-                  {language === 'pt' ? 'Disponível para oportunidades' : 'Available for opportunities'}
-                </span>
-              </div>
-
-              {/* Eyebrow com Traço */}
-              <div className="flex items-center gap-1.5 sm:gap-2">
-                <span className="h-[1px] w-3.5 sm:w-5 bg-[#168BFF]"></span>
-                <span className="text-[#168BFF] font-mono text-[10px] sm:text-xs tracking-[0.18em] sm:tracking-[0.2em] uppercase font-semibold">
-                  DESIGNER &amp; FRONT-END DEVELOPER
-                </span>
-              </div>
-            </div>
-
             {/* 2. Saudação & Nome como Protagonista */}
             <div className="space-y-0.5 sm:space-y-1.5">
               <span className="text-[11px] sm:text-sm font-mono tracking-[0.22em] sm:tracking-[0.25em] text-[#687386] uppercase block font-medium">
@@ -180,39 +158,29 @@ export const Hero: React.FC = () => {
                 {t.hero.subtitle}
               </p>
               
-              {/* Faixa Conceitual (Assinatura de Atuação) */}
-              <div className="inline-flex items-center gap-1 sm:gap-2 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-lg bg-[#101722]/85 border border-white/5 text-[9.5px] sm:text-xs font-mono text-[#687386] shadow-xs">
-                <span className="text-[#00D5FF] font-semibold">DESIGN</span>
-                <span className="text-white/20">&rarr;</span>
-                <span className="text-[#168BFF] font-semibold">UI/UX</span>
-                <span className="text-white/20">&rarr;</span>
-                <span className="text-[#9B5CFF] font-semibold">FRONT-END</span>
-                <span className="text-white/20">&rarr;</span>
-                <span className="text-[#00E599] font-semibold">DIGITAL PRODUCTS</span>
-              </div>
             </div>
-
             {/* 4. Botões de Ação (CTAs) */}
             <div className="flex flex-wrap items-center gap-2.5 sm:gap-3 pt-0.5">
-              <button
-                id="btn-hero-explore"
-                onClick={scrollToWork}
-                data-cursor="link"
-                className="min-h-[44px] px-5 sm:px-7 py-2.5 sm:py-3.5 rounded-xl bg-[#168BFF] text-white font-bold text-xs sm:text-sm font-mono flex items-center justify-center gap-1.5 sm:gap-2 hover:bg-[#00A8FF] hover:shadow-lg hover:shadow-[#168BFF]/25 hover:-translate-y-0.5 active:scale-[0.98] transition-all cursor-pointer shadow-md"
-              >
-                <span>{t.hero.ctaWork}</span>
-                <ArrowDown className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-              </button>
-
               <button
                 id="btn-hero-about"
                 onClick={scrollToAbout}
                 data-cursor="link"
+                className="min-h-[44px] px-5 sm:px-7 py-2.5 sm:py-3.5 rounded-xl bg-[#168BFF] text-white font-bold text-xs sm:text-sm font-mono flex items-center justify-center gap-1.5 sm:gap-2 hover:bg-[#00A8FF] hover:shadow-lg hover:shadow-[#168BFF]/25 hover:-translate-y-0.5 active:scale-[0.98] transition-all cursor-pointer shadow-md"
+              >
+                <span>{t.hero.ctaAbout}</span>
+                <ArrowDown className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+              </button>
+
+              <button
+                id="btn-hero-explore"
+                onClick={scrollToWork}
+                data-cursor="link"
                 className="min-h-[44px] px-5 sm:px-7 py-2.5 sm:py-3.5 rounded-xl bg-transparent border border-white/15 text-[#F5F7FA] font-bold text-xs sm:text-sm font-mono flex items-center justify-center hover:bg-white/[0.06] hover:border-white/30 hover:-translate-y-0.5 active:scale-[0.98] transition-all cursor-pointer"
               >
-                {t.hero.ctaAbout}
+                {t.hero.ctaWork}
               </button>
             </div>
+
 
             {/* 5. Redes Profissionais */}
             <div className="flex flex-wrap items-center gap-4 sm:gap-6 pt-2 border-t border-white/5 text-[11px] sm:text-xs font-mono tracking-wider text-[#687386]">
@@ -390,7 +358,7 @@ export const Hero: React.FC = () => {
           ========================================================================= */}
       <div className="w-full flex justify-center pt-1.5 pb-1 z-20">
         <button
-          onClick={scrollToWork}
+          onClick={scrollToAbout}
           className="flex flex-col items-center gap-1 text-[#687386] hover:text-[#00D5FF] transition-colors focus:outline-none cursor-pointer group"
           aria-label={t.hero.scrollIndicator}
         >
