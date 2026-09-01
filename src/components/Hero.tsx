@@ -65,7 +65,7 @@ export const Hero: React.FC = () => {
       onMouseMove={handleMouseMove}
       onMouseEnter={() => setIsHoveringHero(true)}
       onMouseLeave={handleMouseLeave}
-      className="relative w-full min-h-[100svh] md:min-h-[calc(100svh-4.5rem)] lg:min-h-[calc(100vh-4.5rem)] lg:max-h-[960px] flex flex-col justify-between pt-16 sm:pt-20 md:pt-20 lg:pt-22 pb-3 sm:pb-5 overflow-x-hidden overflow-y-visible bg-[#07090D]"
+      className="relative w-full min-h-[100svh] md:min-h-[calc(100svh-4.5rem)] lg:min-h-[calc(100vh-4.5rem)] lg:max-h-[960px] flex flex-col justify-between pt-20 sm:pt-20 md:pt-20 lg:pt-22 pb-3 sm:pb-5 overflow-x-hidden overflow-y-visible bg-[#07090D]"
     >
       {/* =========================================================================
           BACKGROUND ATMOSPHERIC LAYER (Design + Dev Subtle Traces, Zero Clutter)
